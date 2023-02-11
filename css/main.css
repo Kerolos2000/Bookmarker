@@ -1,0 +1,159 @@
+::-moz-selection {
+  background-color: #46320c;
+  color: #eae1cf;
+}
+
+::selection {
+  background-color: #46320c;
+  color: #eae1cf;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #eae1cf;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background: #eae1cf;
+  color: #46320c;
+}
+
+#inputs .container .form {
+  background-color: rgba(255, 255, 255, 0.1490196078);
+  border: 2px solid #46320c;
+  color: #000;
+}
+#inputs .container .form .row div input,
+#inputs .container .form .row div select {
+  font-weight: 500;
+  padding: 0.5rem;
+  background: transparent;
+  box-shadow: none;
+  color: #000;
+  border: 2px solid #46320c;
+  transition: 0.5s;
+}
+#inputs .container .form .row div input::-moz-placeholder, #inputs .container .form .row div select::-moz-placeholder {
+  color: #969696;
+}
+#inputs .container .form .row div input::placeholder,
+#inputs .container .form .row div select::placeholder {
+  color: #969696;
+}
+#inputs .container .form .row div input:focus,
+#inputs .container .form .row div select:focus {
+  border: 2px solid #c0922b;
+}
+#inputs .container .form .row div input[type=number]::-webkit-inner-spin-button {
+  display: none;
+}
+#inputs .container .form .row div .Add {
+  color: #46320c;
+  background-color: #eae1cf;
+}
+#inputs .container .form .row div .Add:hover {
+  color: #eae1cf;
+  background-color: #46320c;
+}
+#inputs .container .form .row div .Save {
+  color: #eae1cf;
+  background-color: #46320c;
+  display: none;
+}
+#inputs .container .form .row div .Save:hover {
+  color: #46320c;
+  background-color: #eae1cf;
+}
+#inputs .container .form .row div button {
+  width: 100px;
+  border: 2px solid #46320c;
+  transition: 0.5s;
+}
+
+.disabled {
+  opacity: 0.2 !important;
+}
+
+#result .container .row {
+  overflow-x: overlay;
+  margin: 0;
+}
+#result .container .row .table-dark {
+  --bs-table-striped-bg: rgb(19 22 25 / 50%);
+  --bs-table-bg: rgb(94 89 78);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+#result .container .row .table-dark tr td {
+  vertical-align: middle;
+}
+#result .container .row .table-dark #tbody .noData {
+  padding: 1rem;
+  font-weight: 600;
+}
+#result .container .row .table-dark #tbody tr a {
+  background-color: #beffae;
+  text-decoration: none;
+}
+#result .container .row .table-dark #tbody tr .Update {
+  background-color: #ffecae;
+}
+#result .container .row .table-dark #tbody tr .Delete {
+  background-color: #ff9696;
+}
+#result .container .row .table-dark #tbody tr button,
+#result .container .row .table-dark #tbody tr a {
+  width: 100px;
+  color: #000;
+  padding: 0.5rem 1rem;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+#result .container .row .table-dark #tbody tr button:hover,
+#result .container .row .table-dark #tbody tr a:hover {
+  opacity: 1;
+}
+
+.swal2-popup {
+  background: rgba(125, 83, 54, 0.7019607843) !important;
+  color: #ffffff !important;
+  -webkit-backdrop-filter: blur(5px) !important;
+          backdrop-filter: blur(5px) !important;
+}
+
+.swal2-actions {
+  gap: 10px;
+}
+
+button.swal2-cancel.btn.btn-danger,
+button.swal2-confirm.btn.btn-success {
+  opacity: 0.8;
+  transition: 0.5s;
+}
+button.swal2-cancel.btn.btn-danger:hover,
+button.swal2-confirm.btn.btn-success:hover {
+  opacity: 1;
+}
+
+button.swal2-cancel.btn.btn-danger {
+  background-color: #f04a4a;
+  border: 2px solid #f04a4a;
+}
+
+button.swal2-confirm.btn.btn-success {
+  background-color: #398831;
+  border: 2px solid #398831;
+}
+
+.swal2-success-circular-line-left {
+  background: transparent;
+}
+
+.errorMsg {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
